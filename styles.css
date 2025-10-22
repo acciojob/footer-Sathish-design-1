@@ -79,8 +79,25 @@ footer .content {
 .bottom_text p span{
 	color:gray;
 }
+@media (max-width: 768px) {
+    .link-boxes {
+        flex-direction: row;
+    }
 
+    .link-boxes .box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 
+    .top {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .media-icons {
+        margin-top: 15px;
+    }
+}
 
 
 
