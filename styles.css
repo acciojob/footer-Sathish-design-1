@@ -9,26 +9,22 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
 }
-
-footer {
-    background: #111;
-    color: #fff;
-    width: 100%;
+footer{
+	background:#111;
+	color:#fff;
+	width:100%;
 }
-
 footer .content {
     max-width: 1250px;
     margin: auto;
     padding: 40px 20px;
 }
-
-.top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+.top{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-wrap:wrap;
 }
-
 .logo_name {
     font-size: 1.8rem;
     font-weight: bold;
@@ -42,21 +38,15 @@ footer .content {
     transition: color 0.3s;
 }
 
-.media-icons a:hover {
-    color: #e60023;
-}
-
 .link-boxes {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 30px;
 }
-
 .link-boxes .box {
     width: 22%;
 }
-
 .link-boxes .link_name {
     font-weight: bold;
     font-size: 1.1rem;
@@ -69,48 +59,32 @@ footer .content {
 }
 
 .link-boxes li a {
+	font-size:13px;
     text-decoration: none;
     color: #ddd;
     transition: 0.3s;
 }
-
-.link-boxes li a:hover {
-    color: #e60023;
-}
-
 .bottom-details {
-    background: #0a0a0a;
-    padding: 15px 20px;
+    background: #333;
+    padding: 15px 30px;
     text-align: center;
     font-size: 0.9rem;
 }
-
-.bottom-details a {
-    color: #e60023;
-    text-decoration: none;
+.bottom_text{
+	display:flex;
+	justify-content:space-between;
+	color:#fff;
+	font-size:12px;
+}
+.bottom_text p span{
+	color:gray;
 }
 
-.bottom-details a:hover {
-    text-decoration: underline;
-}
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .link-boxes {
-        flex-direction: column;
-    }
 
-    .link-boxes .box {
-        width: 100%;
-        margin-bottom: 20px;
-    }
 
-    .top {
-        flex-direction: row;
-        text-align: center;
-    }
 
-    .media-icons {
-        margin-top: 15px;
-    }
-}
+
+
+
+
